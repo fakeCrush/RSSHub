@@ -64,6 +64,9 @@
   "/12306/zxdt/:id?": [
     "LogicJake"
   ],
+  "/12371/:category?": [
+    "zvrr"
+  ],
   "/005/:category?": [
     "nczitzk"
   ],
@@ -3686,6 +3689,9 @@
   "/ncepu/master/:type": [
     "nilleo"
   ],
+  "/ncpssd/newlist": [
+    "LyleLee"
+  ],
   "/ncu/jwc": [
     "ywh555hhh"
   ],
@@ -5837,6 +5843,9 @@
   ],
   "/warthunder/news": [
     "axojhf"
+  ],
+  "/watasuke/blog": [
+    "honahuku"
   ],
   "/wdc/download/:id?": [],
   "/web/articles": [
