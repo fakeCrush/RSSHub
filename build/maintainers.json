@@ -1834,6 +1834,9 @@
   "/famitsu/category/:category?": [
     "TonyRL"
   ],
+  "/fanbox/:creator": [
+    "KarasuShin"
+  ],
   "/fansly/user/:username": [
     "TonyRL"
   ],
@@ -6312,6 +6315,9 @@
   "/yangtzeu/dongke/*": [],
   "/ycwb/:node": [
     "TimWu007"
+  ],
+  "/yenpress/series/:name": [
+    "TonyRL"
   ],
   "/ygkkk/": [
     "cnkmmk"

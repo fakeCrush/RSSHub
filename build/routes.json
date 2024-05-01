@@ -18558,6 +18558,36 @@
     "name": "ファミ通",
     "url": "famitsu.com"
   },
+  "fanbox": {
+    "routes": {
+      "/:creator": {
+        "path": "/:creator",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/fanbox/official",
+        "parameters": {
+          "creator": "fanbox user name"
+        },
+        "maintainers": [
+          "KarasuShin"
+        ],
+        "name": "Creator",
+        "features": {
+          "requireConfig": [
+            {
+              "name": "FANBOX_SESSION_ID",
+              "description": "Required for private posts. Can be found in browser DevTools -> Application -> Cookies -> https://www.fanbox.cc -> FANBOXSESSID",
+              "optional": true
+            }
+          ]
+        },
+        "location": "index.ts"
+      }
+    },
+    "name": "fanbox",
+    "url": "https://www.fanbox.cc"
+  },
   "fansly": {
     "routes": {
       "/user/:username": {
@@ -62978,6 +63008,35 @@
     },
     "name": "羊城晚报金羊网",
     "url": "xwlb.com.cn"
+  },
+  "yenpress": {
+    "routes": {
+      "/series/:name": {
+        "path": "/series/:name",
+        "example": "/yenpress/series/alya-sometimes-hides-her-feelings-in-russian",
+        "parameters": {
+          "name": "Series name"
+        },
+        "name": "Series",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "radar": [
+          {
+            "source": [
+              "yenpress.com/series/:name"
+            ],
+            "target": "/series/:name"
+          }
+        ],
+        "location": "series.ts"
+      }
+    },
+    "name": "Yen Press",
+    "url": "yenpress.com",
+    "categories": [
+      "reading"
+    ]
   },
   "ygkkk": {
     "routes": {
