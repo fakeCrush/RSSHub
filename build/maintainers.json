@@ -4346,33 +4346,27 @@
   ],
   "/nyaa/search/:query?": [
     "Lava-Swimmer",
-    "noname1776",
-    "camera-2018"
+    "noname1776"
   ],
   "/nyaa/user/:username?": [
     "Lava-Swimmer",
-    "noname1776",
-    "camera-2018"
+    "noname1776"
   ],
   "/nyaa/user/:username/search/:query?": [
     "Lava-Swimmer",
-    "noname1776",
-    "camera-2018"
+    "noname1776"
   ],
   "/nyaa/sukebei/search/:query?": [
     "Lava-Swimmer",
-    "noname1776",
-    "camera-2018"
+    "noname1776"
   ],
   "/nyaa/sukebei/user/:username?": [
     "Lava-Swimmer",
-    "noname1776",
-    "camera-2018"
+    "noname1776"
   ],
   "/nyaa/sukebei/user/:username/search/:query?": [
     "Lava-Swimmer",
-    "noname1776",
-    "camera-2018"
+    "noname1776"
   ],
   "/nymity/censorbib": [
     "xtexChooser"
@@ -5003,9 +4997,6 @@
   ],
   "/rsc/journal/:id/:category?": [
     "nczitzk"
-  ],
-  "/rss3/:account/:network?/:tag?": [
-    "DIYgod"
   ],
   "/rsshub/routes/:lang?": [
     "DIYgod"
