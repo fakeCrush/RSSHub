@@ -3832,7 +3832,7 @@
       }
     },
     "name": "AEON",
-    "url": "aeon.aeon.co",
+    "url": "aeon.co",
     "lang": "en"
   },
   "afdian": {
@@ -11254,7 +11254,7 @@
       }
     },
     "name": "北京天文馆",
-    "url": "bjp.org.cn",
+    "url": "www.bjp.org.cn",
     "lang": "zh-CN"
   },
   "bjsk": {
@@ -54759,14 +54759,14 @@
     "url": "mrm.com.cn",
     "lang": "zh-CN"
   },
-  "mvm": {
+  "mwm": {
     "routes": {
       "/:category?": {
         "path": "/:category?",
         "categories": [
           "journal"
         ],
-        "example": "/mvm",
+        "example": "/mwm",
         "parameters": {
           "category": "分类，见下表，默认为本期要目"
         },
@@ -90264,7 +90264,8 @@
                 "value": "collect",
                 "label": "collect"
               }
-            ]
+            ],
+            "default": "notes"
           }
         },
         "location": "user.ts"
